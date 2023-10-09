@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico" />
+    <title>Harsini-Web Developer Portfolio</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap");
+    </style>
+
+    <!-- FONT AWESOME -->
+    <script
+      class="press-img"
+      src="https://kit.fontawesome.com/1b70fa0eff.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      class="press-img"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <section id="title">
+      <div class="header">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href=""
+              ><h3>
+                <img
+                  src="Images/h.png"
+                  alt="Logo"
+                  width="75px"
+                  height="75px"
+                  style="margin-right: 10px; border-radius: 50%"
+                /></h3
+            ></a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects1">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#certificates1">Certifications</a>
+                </li>
+                <li class="nav-item">
+                  <a href="mailto:fragon1929@gmail.com"
+                    ><button class="btn contact-btn">Contact</button></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="main-content">
+            <h1 class="fw-bolder">
+              Hi, I am <span style="color: #67e6b7">Harsini</span>...!
+            </h1>
+            <p class="main-content">
+              A recent graduate with a strong passion for web design. I'm eager
+              to apply my skills and creativity to create visually captivating
+              and user-friendly websites. I'm excited to embark on this journey
+              and contribute to the ever-evolving world of web development.
+            </p>
+            <a href="https://www.linkedin.com/in/harsini-a-m-20026818b/">
+              <button type="button" class="btn btn-md knowMore-btn">
+                Know More...
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <section id="skills">
+      <h2 class="sections-title">My Skills</h2>
+      <div class="skills">
+        <!-- <div class="skill-row">
+          <div class="row">
+            <div class="col-lg-4 col-md-12">
+              <img
+                class="skill-img skill-img-dbms"
+                src="Images/dbms1.jpg"
+                alt="Dbms"
+              />
+            </div>
+            <div class="col-lg-8 col-md-12">
+              <h3>Relational - DBMS</h3>
+              <p>
+                Worked on Mini Project - The College Management system using the
+                R-DBMS concepts.
+              </p>
+              <h5>Tools</h5>
+              <p>MySQL, MongoDB</p>
+            </div>
+          </div>
+        </div> -->
+        <!--  <div class="skill-row">
+          <div class="row">
+            <div class="col-lg-8 col-md-12">
+              <h3>FrontEnd Techs - HTML, CSS, Js, ReactJs</h3>
+              <p>Familiar with basic front-end techs like HTML, CSS, Js.</p>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <img
+                class="skill-img skill-img-frontend"
+                src="Images/frontend3.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div> -->
+        <div class="skill-row">
+          <img
+            class="skill-img skill-img-dbms"
+            src="Images/dbms1.jpg"
+            alt="Dbms"
+          />
+          <h3>Relational - DBMS</h3>
+          <p>
+            Worked on Mini Projects - The College Management system, Tourism and
+            Journal Web Applications.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img
+            class="skill-img skill-img-frontend"
+            src="Images/frontend.jpg"
+            alt=""
+          />
+          <div class="skills-content"></div>
+          <h3>FrontEnd Techs - HTML, CSS, Js, ReactJs</h3>
+          <p>
+            Worked with front-end skills like HTML, CSS, JavaScript, JQuery.
+            Worked on simple ReactJs Projects.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img
+            class="skill-img skill-img-backend"
+            src="Images/backend.jpg"
+            alt=""
+          />
+          <h3>BackEnd Techs - NodeJs , ExpressJs, EJS</h3>
+          <p>
+            Familiar with ExpressJs, a NodeJs framework and EJS and used for
+            building simple web projects.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img
+            class="skill-img skill-img-iot"
+            src="Images/iot.jpg"
+            alt="Iot skill"
+          />
+          <h3>IOT</h3>
+          <p>
+            Built IOT working prototypes for COVID-Safety system using Arduino
+            Uno R3 microcontroller.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="hr-margin" />
+
+    <section id="projects1">
+      <h2 class="sections-title">Projects</h2>
+      <div class="projects">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="project">
+              <img src="Images/UT.PNG" alt="Uttarkhand Tourism Website" />
+              <h3 class="project-title">Uttarkhand Tourism Website</h3>
+              <hr class="project-title-hr" />
+              <ul class="project-desc">
+                <li>
+                  The main objective of this mini-project based on the problem
+                  statement given by Smart India Hackathon - 2022 is to develop
+                  a website that provides information about tourist places in
+                  the state of Uttarkhand.
+                </li>
+                <li>
+                  It also provides details about famous local things and food
+                  that are sold by local vendors, thereby providing recognition
+                  to the local vendors and increasing the revenue gained through
+                  tourism.
+                </li>
+                <li>
+                  In addition to the main objectives mentioned, review data from
+                  website visitors is stored in MongoDB Atlas Collections which
+                  will be useful for further enhancements of website.
+                </li>
+              </ul>
+              <br />
+              <div class="tech-stacks">
+                <h4>Tech Stacks</h4>
+
+                <h5>FrontEnd</h5>
+                <p>HTML, CSS, JavaScript, JQuery</p>
+                <h5>BackEnd</h5>
+                <p>NodeJs, ExpressJs, EJS</p>
+                <h5>Database</h5>
+                <p>MongoDB Atlas</p>
+
+                <div class="center">
+                  <a href="https://uttarkhand-tourism-ut.onrender.com/">
+                    <button class="live-link">View Project</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="project">
+              <img src="Images/Journal.PNG" alt="Journal Website" />
+              <h3 class="project-title">Daily Journal Website</h3>
+              <hr class="project-title-hr" />
+              <ul class="project-desc">
+                <li>
+                  The main objective of this mini-project is to develop a simple
+                  website to keep track of my daily activities.
+                </li>
+                <li>
+                  It consists of 3 sections – Home Page, Compose Page and About
+                  page. Home page displays records of my daily activities,
+                  Compose Page allows us to record a new activity into our
+                  journal. And About page contains description about this
+                  website.
+                </li>
+                <li>
+                  Activites composed are stored into a database in MongoDB
+                  Atlas. When reviewing each activity, it takes us to a new page
+                  where that specific activity will be displayed.
+                </li>
+              </ul>
+              <br />
+              <div class="tech-stacks">
+                <h4>Tech Stacks</h4>
+
+                <h5>FrontEnd</h5>
+                <p>HTML, CSS, JavaScript</p>
+                <h5>BackEnd</h5>
+                <p>NodeJs, ExpressJs, EJS</p>
+                <h5>Database</h5>
+                <p>MongoDB Atlas</p>
+
+                <div class="center">
+                  <a href="https://journal-project-neo.onrender.com/">
+                    <button class="live-link">View Project</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="project">
+              <img
+                src="Images/DiseasePrediction.PNG"
+                alt="Disease Prediction and Recommendation"
+              />
+              <h3 class="project-title">
+                Disease Prediction and Recommendation System
+              </h3>
+              <hr class="project-title-hr" />
+              <ul class="project-desc">
+                <li>
+                  The main objective of this project is to develop individual
+                  ensemble classical machine learning models for Diabetes and
+                  Heart Disease prediction.
+                </li>
+                <li>
+                  For each disease prediction, individual ensemble models are
+                  built using Soft voting from results of Logistic Regression,
+                  SVC, KNN, Decision Tree And Random Forest.
+                </li>
+                <li>
+                  Based on the results, recommendations of specialists will be
+                  displayed in the webpage developed using streamlit and pickle.
+                </li>
+              </ul>
+              <br />
+              <div class="tech-stacks">
+                <h4>Tech Stacks</h4>
+
+                <h5>FrontEnd</h5>
+                <p>Streamlit</p>
+                <h5>BackEnd</h5>
+                <p>Ensemble ML models, Pickle</p>
+                <h5>Platfrom Used</h5>
+                <p>Jupyter Notebook, Qiskit - IBM Quantum Lab</p>
+                <br />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="project">
+              <img
+                src="Images/css-3.PNG"
+                alt="COVID19-Safety System"
+                style="height: 270px"
+              />
+              <h3 class="project-title">COVID Safety System</h3>
+              <hr class="project-title-hr" />
+              <ul class="project-desc">
+                <li>
+                  The main objective of this mini-project is to develop a simple
+                  working prototype of IOT based system for preventing the
+                  spread of COVID pandemic.
+                </li>
+                <li>
+                  It consists of two modules – First module for checking the
+                  Temperature of the person with the help of MLX Temperature
+                  sensor and if less than the mentioned threshold, the person
+                  will be allowed inside particular place using suitable
+                  actuators like LCD display and LED’s, else not allowed to
+                  enter the place.
+                </li>
+                <li>
+                  The second module is for automatically sanitizing the person’s
+                  hand using IR sensors.
+                </li>
+              </ul>
+              <br />
+              <div class="tech-stacks">
+                <h4>Components</h4>
+
+                <h5>IDE</h5>
+                <p>Arduino</p>
+                <h5>Microcontroller</h5>
+                <p>Arduino Uno-R3</p>
+                <h5>Sensors and Actuators</h5>
+                <p>MLX Temperature sensor, IR sensor, LCD, LED</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="hr-margin" />
+
+    <section id="certificates1">
+      <h2 class="sections-title">Certifications</h2>
+      <div class="certificates">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="certificate-title">Web Development</h2>
+            <div class="certificate">
+              <div
+                id="web-carousel"
+                class="carousel slide"
+                data-bs-ride="false"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active" style="text-align: center">
+                    <img
+                      class="certificate-img"
+                      class="press-img"
+                      src="Images/coursera1.PNG"
+                      alt="HTML, CSS, Js"
+                    />
+                    <em
+                      >Programming Foundations with HTML, CSS and JavaScript</em
+                    >
+                  </div>
+
+                  <!--  2nd certificate -->
+                  <div class="carousel-item" style="text-align: center">
+                    <img
+                      class="certificate-img"
+                      class="press-img"
+                      src="images/coursera2.PNG"
+                      alt="HTML"
+                    />
+                    <em>Introduction to HTML</em>
+                  </div>
+
+                  <!-- third certificate -->
+                  <div class="carousel-item" style="text-align: center">
+                    <img
+                      class="certificate-img"
+                      class="press-img"
+                      src="images/webflow.PNG"
+                      alt="Webflow"
+                    />
+                    <em>Webflow for Beginners</em>
+                  </div>
+                </div>
+
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#web-carousel"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#web-carousel"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <!--- after carousel -->
+              <hr class="project-title-hr" />
+
+              <div class="tech-stacks">
+                <h4>Skills Gained</h4>
+                <h5>FrontEnd</h5>
+                <p>HTML, CSS, JavaScript, JQuery, ReactJs</p>
+                <h5>BackEnd</h5>
+                <p>NodeJs, ExpressJs, EJS</p>
+                <h5>Database</h5>
+                <p>MySQL, MongoDB</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4"></div>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+
+
+
+css
+
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Courgette&family=DM+Serif+Display&family=Lato&family=Libre+Baskerville&family=Montserrat:wght@100;400;900&family=Mooli&family=Nunito:wght@200;400&family=PT+Serif+Caption&family=Ubuntu:wght@300&family=Ysabeau+Infant:wght@400;900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background-color: #000000;
+  color: rgb(227, 217, 217);
+}
+
+hr {
+  border: dotted #9ed0d0 13px;
+  border-style: dotted none none none;
+  width: 10%;
+  margin: 10px auto;
+  background-color: #000000;
+}
+
+hr.project-title-hr {
+  border: dotted #9ed0d0 6px;
+  border-style: dotted none none none;
+  width: 80%;
+  margin: 15px auto;
+}
+
+p {
+  font-weight: 350;
+  color: #48474a;
+}
+i:hover {
+  color: #000000;
+}
+button {
+  border-radius: 25px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+div.center {
+  text-align: center;
+}
+
+/*********************************        CLASS and ID SELECTOR      **************************/
+
+#title {
+  background-color: #000000;
+  color: rgb(227, 217, 217);
+  font-size: 1rem;
+  text-align: left;
+}
+
+.header {
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  color: #eeeaf2;
+  font-weight: bold;
+}
+.nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.nav-item .nav-link:hover {
+  color: #67e6b7 !important;
+  transition-delay: 0.35s;
+}
+
+.main-content {
+  padding-top: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.main-content h1 {
+  width: 70%;
+  margin: 0% 15%;
+  font-family: "Mooli", sans-serif;
+  line-height: 1.5;
+  color: #eeeaf2;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+p.main-content {
+  font-size: 1.5rem;
+  color: #eeeaf2;
+  font-weight: 300px;
+  width: 80%;
+  margin: 20px 10%;
+  padding-top: 0rem;
+}
+/* buttton */
+
+.contact-btn {
+  background-color: #67e6b7;
+  color: #0f0525;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 50px;
+  margin-left: 20px;
+  padding: 0.55rem 1.75rem;
+  margin-bottom: 10px;
+}
+
+.knowMore-btn {
+  margin: 2.5% auto;
+  padding: 0.75rem 2rem;
+  background-color: #67e6b7;
+  color: #0f0525;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  color: #96e5c8;
+  background-color: #030304;
+  transition-delay: 0.5s;
+  border: 1px solid #96e5c8;
+}
+
+/******************************* skills ****************************/
+
+#skills {
+  padding-top: 50px;
+}
+h2.sections-title {
+  font-size: 2.5rem;
+  color: #67e6b7;
+  text-shadow: 0.5px 1px #adaaaa;
+  font-weight: 600px;
+}
+
+.skill-row {
+  padding: 5px 0px;
+}
+
+.skill-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.skill-img-dbms {
+  float: left;
+  margin-right: 30px;
+}
+.skill-img-frontend {
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-img-backend {
+  float: left;
+  margin-right: 30px;
+}
+.skill-img-iot {
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 40px auto 100px auto;
+  text-align: left;
+}
+.skill-row h3 {
+  color: #d6e5df;
+  font-size: 1.75rem;
+  font-weight: 500px;
+}
+
+.skill-row p {
+  color: #d6e5df;
+  font-size: 1.35rem;
+}
+
+hr.hr-margin {
+  margin: 3% auto;
+}
+
+/****************************** Projects ******************************/
+
+.projects {
+  width: 85%;
+  margin: 2% auto;
+}
+.project {
+  min-height: 1000px;
+  width: 80%;
+  margin: 6% auto;
+  border: 1px solid #96e5c8;
+  border-radius: 30px;
+  text-align: justify;
+  padding: 0 15px;
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  color: #e4eff9;
+}
+
+.project:hover {
+  box-shadow: 0 2px 4px 0 #96e5c8, 0 3px 10px 0 #96e5c8;
+}
+
+.project img {
+  height: 60%;
+  width: 80%;
+  margin: 20px 10%;
+  border-radius: 25px;
+}
+
+.project img:hover {
+  transform: scale(1.05);
+}
+
+.project-title {
+  font-family: "Ubuntu", sans-serif;
+  color: #6fa392;
+  font-size: 1.8rem;
+  width: 55%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.project-title:hover {
+  color: #67e6b7;
+}
+
+.project ul {
+  list-style: none;
+  font-weight: 300;
+}
+
+.project ul li::before {
+  content: "\2023";
+  color: #6fa392;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  margin-top: 10px;
+}
+
+.tech-stacks h4,
+.tech-stacks h5 {
+  color: #6fa392;
+  padding-left: 3%;
+}
+
+.tech-stacks h4 {
+  text-align: center;
+}
+
+.tech-stacks > p {
+  color: #eeeaf2;
+  padding-left: 3%;
+}
+
+.iot-img {
+  width: 400px;
+  height: 300%;
+}
+
+.live-link {
+  border-radius: 30px;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  background-color: #6fa392;
+  color: #000000;
+  margin: 3% auto;
+}
+
+.live-link:hover {
+  color: #6fa392;
+  background-color: #000000;
+  border: 1px solid #67e6b7;
+}
+
+/*********************** certificates ***************************/
+.certificates {
+  width: 98%;
+  margin: 2% auto;
+}
+
+.certificate {
+  min-height: 500px;
+  width: 90%;
+  margin: 6% auto;
+  border: 1px solid #96e5c8;
+  border-radius: 30px;
+  text-align: justify;
+  padding: 0 15px;
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  color: #e4eff9;
+}
+
+.certificate:hover {
+  box-shadow: 0 2px 4px 0 #96e5c8, 0 3px 10px 0 #96e5c8;
+}
+
+.certificate img {
+  height: 55%;
+  width: 75%;
+  margin: 20px 12.5%;
+  border-radius: 25px;
+}
+
+.certificate img:hover {
+  transform: scale(1.1);
+}
+
+.certificate-title {
+  font-family: "Ubuntu", sans-serif;
+  color: #6fa392;
+  font-size: 2.2rem;
+  width: 85%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.certificate-title:hover {
+  color: #67e6b7;
+}
+
+.certificate-skills h4,
+.certificate-skills h5 {
+  color: #6fa392;
+  padding-left: 3%;
+}
+
+.certificate-skills h4 {
+  text-align: center;
+}
+
+.certificate-skills > p {
+  color: #eeeaf2;
+  padding-left: 3%;
+}
+
+/*****************        MEDIA SCREEN     **********************/
+
+@media (max-width: 1200px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center;
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .nav-item {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  .nav-link {
+    font-size: 1.25rem;
+    font-family: "Montserrat";
+  }
+
+  .knowMore-btn {
+    font-size: 1.1rem;
+    padding: 0.5rem 1.25rem;
+  }
+
+  .main-content h1 {
+    font-size: 2.75rem;
+    width: 85%;
+    margin: 2% 7.5%;
+  }
+
+  p.main-content {
+    font-size: 1.35rem;
+    width: 95%;
+    margin: 1.5% 2.5%;
+  }
+
+  h2.sections-title {
+    font-size: 2rem;
+  }
+
+  .skill-row h3 {
+    color: #d6e5df;
+    font-size: 1.5rem;
+    font-weight: 500px;
+  }
+
+  .skill-row p {
+    color: #d6e5df;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .skill-row img {
+    width: 60%;
+    margin: 30px 20%;
+  }
+  .skills-content {
+    float: clear;
+  }
+  .skill-row p,
+  h3,
+  h4 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .skill-row {
+    width: 70%;
+    margin: 30px auto;
+    text-align: left;
+  }
+  .navbar-brand h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5rem;
+    color: #eeeaf2;
+    font-weight: bold;
+  }
+  .main-content h1 {
+    font-size: 2rem;
+    width: 95%;
+    margin: 2% 2.5%;
+  }
+
+  .knowMore-btn {
+    font-size: 1rem;
+    padding: 0.4rem 1rem;
+  }
+
+  p.main-content {
+    font-size: 1.1rem;
+    width: 100%;
+    margin: 1.5% 0%;
+  }
+
+  h2.sections-title {
+    font-size: 2rem;
+  }
+
+  .skill-row h3 {
+    color: #d6e5df;
+    font-size: 1.5rem;
+    font-weight: 500px;
+  }
+
+  .skill-row p {
+    color: #d6e5df;
+    font-size: 1.15rem;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+  }
+
+  .tech-stacks > p {
+    font-size: 1rem;
+  }
+}
