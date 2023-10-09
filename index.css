@@ -51,7 +51,7 @@ div.center {
 }
 
 .header {
-  padding: 3% 15% 7%;
+  padding: 3% 10% 7%;
 }
 
 .navbar-brand h3 {
@@ -99,8 +99,8 @@ p.main-content {
   font-size: 1.5rem;
   color: #eeeaf2;
   font-weight: 300px;
-  width: 80%;
-  margin: 20px 10%;
+  width: 82%;
+  margin: 20px 9%;
   padding-top: 0rem;
 }
 /* buttton */
@@ -356,7 +356,7 @@ hr.hr-margin {
 }
 
 .carousel-item {
-  height: 350px;
+  min-height: 350px;
 }
 /******************* contact ******************/
 .contact1 {
@@ -488,6 +488,15 @@ footer p {
 }
 
 @media (max-width: 600px) {
+  .nav-link {
+    font-size: 1.1rem;
+    font-family: "Montserrat";
+  }
+
+  .skill-row img {
+    width: 75%;
+    margin: 20px 12.5%;
+  }
   .skill-row {
     width: 70%;
     margin: 30px auto;
@@ -531,8 +540,15 @@ footer p {
     font-size: 1.15rem;
   }
 
+  .projects {
+    width: 92%;
+    margin: 2% 4%;
+  }
+
   .project-title {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    width: 70%;
+    margin: 10px auto;
   }
 
   .tech-stacks > p {
@@ -540,11 +556,11 @@ footer p {
   }
 
   .certificates {
-    width: 75%;
+    width: 85%;
     margin: 2% auto;
   }
   .certificate img {
-    height: 65%;
+    height: 60%;
     width: 75%;
     margin: 20px 12.5%;
     border-radius: 25px;
